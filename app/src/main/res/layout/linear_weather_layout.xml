@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical">
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView
+                    android:id="@+id/header"
+                    android:layout_width="216dp"
+                    android:layout_height="37dp"
+                    android:layout_marginStart="20dp"
+                    android:background="@drawable/roundstyle"
+                    android:fontFamily="@font/roboto_bold"
+                    android:gravity="start"
+                    android:text="@string/header"
+                    android:textColor="@color/black"
+                    android:textSize="30sp"
+                    android:layout_marginTop="16dp"/>
+            <TextView
+                    android:id="@+id/time"
+                    android:layout_width="43dp"
+                    android:layout_height="28dp"
+                    android:layout_marginStart="11dp"
+                    android:layout_marginEnd="92dp"
+                    android:fontFamily="@font/roboto_bold"
+                    android:gravity="right|bottom"
+                    android:text="9:14"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"
+                    android:layout_marginTop="16dp"/>
+            </LinearLayout>
+            <LinearLayout
+                    android:id="@+id/gps"
+                    android:layout_width="375dp"
+                    android:layout_height="118dp"
+                    android:layout_marginStart="9dp"
+                    android:layout_marginEnd="9dp"
+                    android:background="@drawable/roundstyle"
+                    android:backgroundTint="@color/black"
+                    android:layout_marginTop="28dp"
+                    android:orientation="horizontal">
+                <LinearLayout android:layout_width="0dp"
+                              android:layout_height="match_parent"
+                              android:orientation="vertical"
+                              android:layout_weight="1">
+                    <TextView
+                            android:id="@+id/x_y"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="12dp"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginTop="8dp"
+                            android:fontFamily="@font/roboto_bold"
+                            android:text="@string/x_y"
+                            android:textColor="@color/white"
+                            android:textSize="23sp"
+                            />
+
+                </LinearLayout>
+                <LinearLayout android:layout_width="0dp"
+                              android:layout_height="match_parent"
+                              android:orientation="vertical"
+                              android:layout_weight="1">
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

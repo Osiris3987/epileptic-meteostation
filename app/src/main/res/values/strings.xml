@@ -1,0 +1,28 @@
+<resources>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="app_name">weather_station</string>
+    <string name="header">Метеостанция</string>
+    <string name="temp">Температура</string>
+    <string name="v_w">Скорость\nветра</string>
+    <string name="station">Станция</string>
+    <string name="wind">Ветер</string>
+    <string name="elevation">Высота</string>
+    <string name="humidity">Влажность</string>
+    <string name="pressure">Давление</string>
+    <string name="graph">График</string>
+    <string name="x_y"> X Y</string>
+    <string name="gps">GPS</string>
+    <string name="N">N</string>
+    <string name="E">E</string>
+    <string name="S">S</string>
+    <string name="W">W</string>
+    <string name="statistics_for_two_hours">за 2ч.</string>
+</resources>
